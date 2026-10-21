@@ -1,0 +1,2 @@
+1b6c230ac9913406f9e75f0fcd08b40877614fa4e69962aac428767290b8a80d  animal-scan-compare-codex.zip
+afc78fa28f582574ec91699a2cbe0300f501d1457524af6538c05445e91ca0fe  animal-scan-compare-workbuddy.zip

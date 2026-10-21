@@ -1,0 +1,22 @@
+{
+  "version": "0.3.3",
+  "date": "2026-10-21",
+  "codex_package": {
+    "file": "dist/animal-scan-compare-codex.zip",
+    "sha256": "1b6c230ac9913406f9e75f0fcd08b40877614fa4e69962aac428767290b8a80d",
+    "top_level_folder": "animal-scan-compare",
+    "file_count": 8,
+    "skill_creator_quick_validate": "passed",
+    "zip_crc": "passed"
+  },
+  "workbuddy_package": {
+    "file": "dist/animal-scan-compare-workbuddy.zip",
+    "sha256": "afc78fa28f582574ec91699a2cbe0300f501d1457524af6538c05445e91ca0fe",
+    "zip_crc": "passed",
+    "platform_upload": "not tested"
+  },
+  "resource_links": "passed",
+  "reference_image_decode": "passed: 887x1774 PNG",
+  "private_benchmark_assets": "not included",
+  "credential_and_private_path_scan": "passed"
+}
