@@ -1,0 +1,68 @@
+{
+  "release_date": "2026-10-22",
+  "repository": "TangAshu/MoyuSkills",
+  "release_tag": "tietu-relationship-timeline-v0.4.0",
+  "skill": "tietu-relationship-timeline",
+  "codex_version": "0.4.0",
+  "workbuddy_name": "tietu-marriage-seven-year-hub",
+  "workbuddy_version": "1.0.0",
+  "official_codex_quick_validate": "Skill is valid!",
+  "archives": [
+    {
+      "file": "tietu-relationship-timeline-codex-0.4.0.zip",
+      "bytes": 285786,
+      "sha256": "7D1A497C14AFB78ADDBA23F718FFDE7948E6FC890DC0C8E388873EBCC3B7301A",
+      "entries": 11,
+      "single_root": "tietu-relationship-timeline",
+      "crc": "passed",
+      "source_archive_equality": "passed",
+      "utf8_and_sensitive_pattern_scan": "passed",
+      "markdown_links_checked": 9,
+      "image_dimensions": {
+        "assets/self-made-clean-comic-timeline-reference.jpg": {
+          "width": 1324,
+          "height": 256
+        },
+        "assets/self-made-sofa-timeline-reference.jpg": {
+          "width": 1170,
+          "height": 774
+        }
+      }
+    },
+    {
+      "file": "tietu-marriage-seven-year-hub-workbuddy-1.0.0.zip",
+      "bytes": 283463,
+      "sha256": "4EC2F9B6A1856C598040045D987A0A093F8CD204061263CF4F131726B3288EB6",
+      "entries": 9,
+      "single_root": "tietu-marriage-seven-year-hub",
+      "crc": "passed",
+      "source_archive_equality": "passed",
+      "utf8_and_sensitive_pattern_scan": "passed",
+      "markdown_links_checked": 4,
+      "image_dimensions": {
+        "references/self-made-clean-comic-timeline-reference.jpg": {
+          "width": 1324,
+          "height": 256
+        },
+        "references/self-made-sofa-timeline-reference.jpg": {
+          "width": 1170,
+          "height": 774
+        }
+      }
+    }
+  ],
+  "public_boundary": {
+    "benchmark_account_originals": "excluded",
+    "comment_screenshots": "excluded",
+    "credentials_and_private_paths": "not detected",
+    "included_visual_references": "two self-made reference images"
+  },
+  "actual_tests": {
+    "codex_image_generation": "completed before packaging",
+    "large_image_review": "completed before packaging",
+    "360px_contact_sheet_review": "completed before packaging",
+    "workbuddy_corrected_package_platform_upload": "not_performed",
+    "workbuddy_generation_editing_download": "not_tested",
+    "workbuddy_market_review_and_publish": "not_performed"
+  }
+}

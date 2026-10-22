@@ -1,55 +1,26 @@
-# 贴图号·动物X光扫描图文创作
+# MoyuSkills｜贴图号创作 Skills
 
-`animal-scan-compare` 是一个面向 Codex 与 WorkBuddy 的动物扫描对比图文创作 Skill。它用于生成黑底写实、大动物主体、纵向四行的目视／X光／CT／磁共振对比主图，并配套五个标题、中文正文和质检记录。
+这是贴图号项目 Agent 的公开 Skill 仓库。每个 Skill 都有独立源码目录、使用说明和固定版本下载链接。
 
-![橘猫风格参考](animal-scan-compare/assets/style-cat-reference.png)
+## Skill 目录
 
-## 下载
+| Skill | 用途 | 当前版本 | 下载 |
+| --- | --- | --- | --- |
+| [贴图号·动物X光扫描图文创作](animal-scan-compare/) | 创作黑底写实、目视／X光／CT／磁共振四行动物扫描对比图文 | Codex `0.3.3` / WorkBuddy `0.3.3` | [Codex ZIP](https://github.com/TangAshu/MoyuSkills/releases/download/v0.3.3/animal-scan-compare-codex.zip) · [WorkBuddy ZIP](https://github.com/TangAshu/MoyuSkills/releases/download/v0.3.3/animal-scan-compare-workbuddy.zip) · [版本说明](https://github.com/TangAshu/MoyuSkills/releases/tag/v0.3.3) |
+| [贴图号·婚姻七年渐远组图](tietu-relationship-timeline/) | 创作第一年最相爱、第七年最疏远的原创七帧婚姻时间线图文 | Codex `0.4.0` / WorkBuddy `1.0.0` | [Codex ZIP](https://github.com/TangAshu/MoyuSkills/releases/download/tietu-relationship-timeline-v0.4.0/tietu-relationship-timeline-codex-0.4.0.zip) · [WorkBuddy ZIP](https://github.com/TangAshu/MoyuSkills/releases/download/tietu-relationship-timeline-v0.4.0/tietu-marriage-seven-year-hub-workbuddy-1.0.0.zip) · [版本说明](https://github.com/TangAshu/MoyuSkills/releases/tag/tietu-relationship-timeline-v0.4.0) |
 
-- [下载 Codex 版](https://github.com/TangAshu/MoyuSkills/releases/latest/download/animal-scan-compare-codex.zip)
-- [下载 WorkBuddy 版](https://github.com/TangAshu/MoyuSkills/releases/latest/download/animal-scan-compare-workbuddy.zip)
-- [查看最新版本说明](https://github.com/TangAshu/MoyuSkills/releases/latest)
+## 安装说明
 
-当前版本：`0.3.3`
+- **Codex**：下载对应 Codex ZIP，解压后把 Skill 文件夹放到项目或个人的 `.agents/skills/` 中；也可以让 `$skill-installer` 从本仓库的 Skill 目录安装。
+- **WorkBuddy**：下载对应 WorkBuddy ZIP，直接上传到 WorkBuddy 开放平台或支持 Skill ZIP 导入的客户端，不要先解压再上传。
+- 每个 Skill 的示例提示词、创作边界与平台差异，请打开上表中的 Skill 名称查看。
 
-## 在 Codex 中安装
+## 版本与校验
 
-1. 下载并解压 `animal-scan-compare-codex.zip`。
-2. 把解压得到的 `animal-scan-compare` 文件夹放到项目的 `.agents/skills/`，或者个人目录的 `.agents/skills/`。
-3. 确认最终路径为 `.agents/skills/animal-scan-compare/SKILL.md`。
-4. 如果 Codex 没有立即发现新 Skill，重启 Codex。
+本仓库的 `releases/latest` 是仓库级入口，可能指向任意一个最新发布的 Skill。分享和安装时请使用表格中的固定标签链接。
 
-也可以在 Codex 中调用 `$skill-installer`，让它从本仓库的 `animal-scan-compare/` 目录安装。
-
-## 在 WorkBuddy 中安装
-
-下载 `animal-scan-compare-workbuddy.zip`，直接上传到 WorkBuddy 开放平台或支持 Skill ZIP 导入的客户端。不要先解压再上传。
-
-平台“试试这样问我”可填写：
-
-> 请用橘猫创作一张黑底写实的目视、X光、CT、磁共振四行对比图，并配好标题和贴图文案。
-
-## 调用示例
-
-```text
-请使用 $animal-scan-compare，为橘猫创作一张黑底写实的目视、X光、CT、磁共振四行对比图，并配好5个标题、贴图正文和质检记录。
-```
-
-```text
-请使用 $animal-scan-compare，把动物改成金毛犬。保持黑底写实、同一方向、大主体和纵向四行结构；生成后按 Skill 的验收规则复看，不合格时针对失败区域修正一次。
-```
-
-## 输出边界
-
-- 图片是 AI 成像示意，不是真实病例、检查文件或诊断依据。
-- X光、CT、磁共振需要表现不同的信息重点，不能只是同一幅骨架换颜色或透明度。
-- 不承诺阅读量、固定完成时间或自动发布。
-- 公开包不包含对标账号原图、评论截图、凭据或私有项目资料。
-
-## 文件完整性
-
-每个 Release 同时提供 `SHA256SUMS.txt`。下载后可用 SHA-256 校验附件是否完整。
+每个 Release 附带该 Skill 的 SHA-256 校验文件。公开包不包含对标账号原图、评论截图、凭据或私有项目资料。
 
 ## 许可
 
-允许下载、安装和使用本 Skill 创作图文内容。Skill 文件、提示词、规则和内置素材的再分发、转售及冒充作者行为受限，详见 [LICENSE.md](LICENSE.md)。
+允许下载、安装和使用本仓库 Skills 创作原创内容。Skill 文件、提示词、规则和内置素材的再分发、转售及冒充作者行为受限，详见 [LICENSE.md](LICENSE.md)。

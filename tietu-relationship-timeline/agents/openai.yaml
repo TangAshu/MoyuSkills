@@ -1,0 +1,6 @@
+interface:
+  display_name: "贴图号·婚姻七年渐远组图"
+  short_description: "创作第一年最相爱、第七年最疏远的七帧婚姻图组"
+  default_prompt: "Use $tietu-relationship-timeline to turn my marriage theme into an original seven-frame Chinese image series from 结婚第一年 to 结婚第七年. Keep one scene and one visual style, make intimacy decrease without rebound, generate and review every image, then deliver five Chinese titles, the full copy, and a truthful QA record."
+policy:
+  allow_implicit_invocation: true
